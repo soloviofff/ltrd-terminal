@@ -7,6 +7,7 @@ private/
 .env.development.local
 .env.test.local
 .env.production.local
+.idea
 
 # dependencies
 node_modules/
