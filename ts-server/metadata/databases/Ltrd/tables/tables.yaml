@@ -1,3 +1,4 @@
+- "!include public_assets.yaml"
 - "!include public_balance.yaml"
 - "!include public_brokers.yaml"
 - "!include public_candles.yaml"

@@ -1,0 +1,1 @@
+CREATE TABLE "public"."assets" ("id" serial NOT NULL, "broker_id" integer NOT NULL, "name" text NOT NULL, "description" text, "avatar" text, "is_fiat" boolean NOT NULL DEFAULT false, "is_cryptocurrency" boolean NOT NULL DEFAULT false, "is_stock" boolean NOT NULL DEFAULT false, PRIMARY KEY ("id") , UNIQUE ("id"));COMMENT ON TABLE "public"."assets" IS E'Assets table';
