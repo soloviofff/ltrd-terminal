@@ -1,0 +1,1 @@
+CREATE TABLE "public"."brokers" ("id" serial NOT NULL, "name" text NOT NULL, "avatar" text, "description" text, "engine_type" text, PRIMARY KEY ("id") , UNIQUE ("id"));COMMENT ON TABLE "public"."brokers" IS E'Table of available brokers to interact with';

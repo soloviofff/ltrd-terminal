@@ -1,0 +1,1 @@
+CREATE TABLE "public"."orderbooks" ("id" serial NOT NULL, "timestamp" integer NOT NULL, "asks" jsonb NOT NULL, "bids" jsonb NOT NULL, "broker_id" integer NOT NULL, "min_price_increment" float8, "instrument_id" integer NOT NULL, PRIMARY KEY ("id") , UNIQUE ("id"));COMMENT ON TABLE "public"."orderbooks" IS E'Table for orderbooks';

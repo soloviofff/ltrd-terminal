@@ -1,0 +1,1 @@
+INSERT INTO "public"."brokers"("id", "name", "avatar", "description", "engine_type") VALUES (1, E'binance', E'https://cdn.discordapp.com/attachments/781222028811829278/829796347942535218/free-binance-coin-icon-2211-thumb.png', E'Cryptocurrency broker', E'ccxt');

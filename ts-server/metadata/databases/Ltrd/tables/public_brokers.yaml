@@ -1,0 +1,3 @@
+table:
+  name: brokers
+  schema: public

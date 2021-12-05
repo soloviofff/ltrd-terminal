@@ -1,0 +1,2 @@
+CREATE TABLE "public"."engines" ("id" serial NOT NULL, "system_name" uuid NOT NULL DEFAULT gen_random_uuid(), "name" text NOT NULL, "description" text NOT NULL, "broker_id" integer NOT NULL, "status" text NOT NULL, "data" jsonb NOT NULL, "type" text NOT NULL, PRIMARY KEY ("id") , UNIQUE ("id"), UNIQUE ("system_name"));COMMENT ON TABLE "public"."engines" IS E'Engines table';
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
