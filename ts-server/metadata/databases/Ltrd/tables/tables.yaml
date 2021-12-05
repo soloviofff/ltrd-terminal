@@ -1,1 +1,2 @@
 - "!include public_orders.yaml"
+- "!include public_positions.yaml"

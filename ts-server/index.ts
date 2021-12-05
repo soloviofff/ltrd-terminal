@@ -19,10 +19,14 @@ var server = app.listen(8000, port, () => {
 
 
 
-
+import { Engines } from './engines'
+import HasuraDb from './engines/hasura'
+import PositionManager from './ltrd/position_manager'
 
 const main = async () => {
+  Engines.hasura = new HasuraDb()
+  Engines.positionManager = new PositionManager()
 
-
+  // console.log(Engines)
 }
 main ()

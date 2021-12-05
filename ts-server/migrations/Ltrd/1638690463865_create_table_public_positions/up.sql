@@ -1,0 +1,1 @@
+CREATE TABLE "public"."positions" ("id" serial NOT NULL, "refer_position" integer NOT NULL, "side" text NOT NULL, "order_start_id" integer, "order_finish_id" integer, PRIMARY KEY ("id") , UNIQUE ("id"));COMMENT ON TABLE "public"."positions" IS E'positions';
