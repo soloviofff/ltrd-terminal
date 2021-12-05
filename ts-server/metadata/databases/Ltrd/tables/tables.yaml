@@ -2,6 +2,7 @@
 - "!include public_brokers.yaml"
 - "!include public_candles.yaml"
 - "!include public_engines.yaml"
+- "!include public_instruments.yaml"
 - "!include public_orderbooks.yaml"
 - "!include public_orders.yaml"
 - "!include public_positions.yaml"
